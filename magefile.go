@@ -41,5 +41,5 @@ func getLatestGitTag() string {
 		return "v0.0.0"
 	}
 
-	return tag[:7]
+	return tag
 }
